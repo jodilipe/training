@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC07FF6B174D7FA500FD8E52 /* PRPRecipesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07FF69174D7FA500FD8E52 /* PRPRecipesListViewController.m */; };
+		FC07FF6C174D7FA500FD8E52 /* PRPRecipesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC07FF6A174D7FA500FD8E52 /* PRPRecipesListViewController.xib */; };
 		FCB135DE1746C48400C1D4F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB135DD1746C48400C1D4F0 /* UIKit.framework */; };
 		FCB135E01746C48400C1D4F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB135DF1746C48400C1D4F0 /* Foundation.framework */; };
 		FCB135E21746C48400C1D4F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB135E11746C48400C1D4F0 /* CoreGraphics.framework */; };
@@ -24,6 +26,7 @@
 		FCB1360C1746C48400C1D4F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCB1360A1746C48400C1D4F0 /* InfoPlist.strings */; };
 		FCB1360F1746C48400C1D4F0 /* RecipesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB1360E1746C48400C1D4F0 /* RecipesTests.m */; };
 		FCB1361A1746C64500C1D4F0 /* PRPRecipe.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB136191746C64500C1D4F0 /* PRPRecipe.m */; };
+		FCB1361C1747908400C1D4F0 /* cookies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCB1361B1747908400C1D4F0 /* cookies.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC07FF68174D7FA500FD8E52 /* PRPRecipesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRPRecipesListViewController.h; path = ../PRPRecipesListViewController.h; sourceTree = "<group>"; };
+		FC07FF69174D7FA500FD8E52 /* PRPRecipesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PRPRecipesListViewController.m; path = ../PRPRecipesListViewController.m; sourceTree = "<group>"; };
+		FC07FF6A174D7FA500FD8E52 /* PRPRecipesListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PRPRecipesListViewController.xib; path = ../PRPRecipesListViewController.xib; sourceTree = "<group>"; };
 		FCB135DA1746C48400C1D4F0 /* Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB135DD1746C48400C1D4F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FCB135DF1746C48400C1D4F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,6 +67,7 @@
 		FCB1360E1746C48400C1D4F0 /* RecipesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipesTests.m; sourceTree = "<group>"; };
 		FCB136181746C64500C1D4F0 /* PRPRecipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPRecipe.h; sourceTree = "<group>"; };
 		FCB136191746C64500C1D4F0 /* PRPRecipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPRecipe.m; sourceTree = "<group>"; };
+		FCB1361B1747908400C1D4F0 /* cookies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cookies.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,14 +127,18 @@
 		FCB135E31746C48400C1D4F0 /* Recipes */ = {
 			isa = PBXGroup;
 			children = (
+				FCB1361B1747908400C1D4F0 /* cookies.jpg */,
+				FCB136181746C64500C1D4F0 /* PRPRecipe.h */,
+				FCB136191746C64500C1D4F0 /* PRPRecipe.m */,
 				FCB135EC1746C48400C1D4F0 /* PRPAppDelegate.h */,
 				FCB135ED1746C48400C1D4F0 /* PRPAppDelegate.m */,
 				FCB135F51746C48400C1D4F0 /* PRPViewController.h */,
 				FCB135F61746C48400C1D4F0 /* PRPViewController.m */,
 				FCB135F81746C48400C1D4F0 /* PRPViewController.xib */,
+				FC07FF68174D7FA500FD8E52 /* PRPRecipesListViewController.h */,
+				FC07FF69174D7FA500FD8E52 /* PRPRecipesListViewController.m */,
+				FC07FF6A174D7FA500FD8E52 /* PRPRecipesListViewController.xib */,
 				FCB135E41746C48400C1D4F0 /* Supporting Files */,
-				FCB136181746C64500C1D4F0 /* PRPRecipe.h */,
-				FCB136191746C64500C1D4F0 /* PRPRecipe.m */,
 			);
 			path = Recipes;
 			sourceTree = "<group>";
@@ -242,6 +253,8 @@
 				FCB135F21746C48400C1D4F0 /* Default@2x.png in Resources */,
 				FCB135F41746C48400C1D4F0 /* Default-568h@2x.png in Resources */,
 				FCB135FA1746C48400C1D4F0 /* PRPViewController.xib in Resources */,
+				FCB1361C1747908400C1D4F0 /* cookies.jpg in Resources */,
+				FC07FF6C174D7FA500FD8E52 /* PRPRecipesListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +293,7 @@
 				FCB135EE1746C48400C1D4F0 /* PRPAppDelegate.m in Sources */,
 				FCB135F71746C48400C1D4F0 /* PRPViewController.m in Sources */,
 				FCB1361A1746C64500C1D4F0 /* PRPRecipe.m in Sources */,
+				FC07FF6B174D7FA500FD8E52 /* PRPRecipesListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +474,7 @@
 				FCB136141746C48400C1D4F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCB136151746C48400C1D4F0 /* Build configuration list for PBXNativeTarget "RecipesTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +483,7 @@
 				FCB136171746C48400C1D4F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

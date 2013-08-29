@@ -17,6 +17,11 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     self.recipeTitle.text = self.recipe.title;
+    self.directionsView.text = self.recipe.directions;
+    if (self.recipe.image) {
+        self.imageView.image = self.recipe.image;
+    }
+    
 }
 
 - (void)viewDidLoad
